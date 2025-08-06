@@ -1,3 +1,4 @@
+pip install --upgrade pip
 cnx = st.connection(“snowflake”)
 session = cnx.session()
 import streamlit as st
