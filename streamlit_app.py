@@ -1,5 +1,4 @@
 # Import python packages
-pip install snowflake-snowpark-pyhton
 cnx = st.connection ("snowflake")
 session = cnx.session()
 import streamlit as st
