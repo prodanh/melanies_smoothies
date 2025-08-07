@@ -1,8 +1,7 @@
 # Import python packages
-pip install streamlit[snowflake]
-cnx = st.connection("snowflake")
-session = cnx.session()
 import streamlit as st
+cnx = st.connection(“snowflake”)
+session = cnx.session()
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
